@@ -4,12 +4,13 @@ import Home from './pages/Home'
 import Browse from './pages/Browse'
 import Request from './pages/Request'
 import About from './pages/About'
-import SignIn from './pages/SignIn'
+import SignIn from './components/SignIn'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import './App.css'
 
 function App() {
+
     return (
         <Router>
             <div>

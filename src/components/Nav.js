@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import user from '../assets/svgs/user.svg'
 import allhelp from '../assets/svgs/allhelp.svg'
 
 function Nav() {
+    const [displayState, setDisplayState] = useState(false)
+
     return (
         <div className='bg-gradient-to-r from-[#A4A8F2] to-[#F5BFC5]'>
             <div className='grid grid-cols-5 text-xl font-medium py-1'>
