@@ -42,10 +42,10 @@ Got Hope is a web and mobile application intended to help people in need easily 
   ### Contributing
 
   * [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-  * Otabek Han GitHub: https://github.com/Leopards91
-  * Marques Sanchez GitHub: https://github.com/marquessanchez
+  * Otabek Abduraufov GitHub: https://github.com/otabek1
+  * Tahmid Ahmed
   * Sebastian Santa GitHub: https://github.com/cheesecakeassassin  
 
   ### Further Questions?
 
-  * If you have further questions, feel free to email one of us at one of the following addresss & we will get back to you as soon as we can: ah847@scarletmail.rutgers.edu, mrican217@gmail.com, mohamed0228@outlook.fr, borrowedandblue@gmail.com, or santasebastian@yahoo.com
+  * If you have further questions, feel free to message one of us!
