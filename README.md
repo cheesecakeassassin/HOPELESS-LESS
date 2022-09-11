@@ -1,5 +1,6 @@
 # HOPELESS-LESS
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+ ![logo](https://user-images.githubusercontent.com/7333111/189533155-9e905be5-7c10-4277-b985-73f4ad68d919.png)
+ [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
   ## Description
   
 Hopeless-less is a web and mobile application intended to help people in need easily get services the services that can potentially save their lives. Created during ShellHacks 2022 Hackathon.
@@ -20,10 +21,11 @@ Hopeless-less is a web and mobile application intended to help people in need ea
 
   ## Screenshots of Application
 
-![2022-09-11](https://user-images.githubusercontent.com/7333111/189526763-ce92ef2c-32fe-4d1d-96eb-a3b853ed5e9b.png)
+![2022-09-11 (2)](https://user-images.githubusercontent.com/7333111/189533237-1c68c5af-19f8-4143-b38a-4e09567ab729.png)
 
 ![2022-09-11 (1)](https://user-images.githubusercontent.com/7333111/189526777-9c957bfa-bb57-4507-85c0-f268ab3cf402.png)
 
+![2022-09-11 (3)](https://user-images.githubusercontent.com/7333111/189533325-75d1aa16-8696-4208-b40c-c8276d5d7e81.png)
 
   ## Link to Deployed Application
 
