@@ -15,22 +15,22 @@ function Nav() {
                     </Link>
                 </div>
                 <div className='flex justify-center col-start-2 col-end-4 items-center'>
-                    <div className='pr-6'>
+                    <div className='px-6 hover:rounded-lg hover:bg-slate-500/25'>
                         <Link to='/'>Home</Link>
                     </div>
-                    <div className='px-6'>
+                    <div className='px-6 hover:rounded-lg hover:bg-slate-500/25'>
                         <Link to='/Browse'>Browse</Link>
                     </div>
-                    <div className='px-6'>
+                    <div className='px-6 hover:rounded-lg hover:bg-slate-500/25'>
                         <Link to='/Request'>Request</Link>
                     </div>
-                    <div className='pl-6'>
+                    <div className='px-6 hover:rounded-lg hover:bg-slate-500/25'>
                         <Link to='/About'>About</Link>
                     </div>
                 </div>
 
                 <div className='flex justify-end col-span-2 items-center'>
-                    <div className='pr-3'>
+                    <div className='px-3 hover:rounded-lg hover:bg-slate-500/25'>
                         <Link to='/SignIn'>Sign In</Link>
                     </div>
                     <div className='pr-6'>
