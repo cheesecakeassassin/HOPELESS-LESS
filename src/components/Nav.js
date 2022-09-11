@@ -19,19 +19,19 @@ function Nav() {
                         <Link to='/'>Home</Link>
                     </div>
                     <div className='px-6 hover:rounded-lg hover:bg-slate-500/25'>
-                        <Link to='/Browse'>Browse</Link>
+                        <Link to='/browse'>Browse</Link>
                     </div>
                     <div className='px-6 hover:rounded-lg hover:bg-slate-500/25'>
-                        <Link to='/Request'>Request</Link>
+                        <Link to='/request'>Request</Link>
                     </div>
                     <div className='px-6 hover:rounded-lg hover:bg-slate-500/25'>
-                        <Link to='/About'>About</Link>
+                        <Link to='/about'>About</Link>
                     </div>
                 </div>
 
                 <div className='flex justify-end col-span-2 items-center'>
                     <div className='px-3 hover:rounded-lg hover:bg-slate-500/25'>
-                        <Link to='/SignIn'>Sign In</Link>
+                        <Link to='/signin'>Sign In</Link>
                     </div>
                     <div className='pr-6'>
                         <img src={user} alt='Sign in icon' />

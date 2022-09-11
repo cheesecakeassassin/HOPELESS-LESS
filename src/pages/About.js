@@ -2,8 +2,8 @@ import React from 'react'
 
 function About() {
     return (
-        <div className='text-3xl font-medium px-6'>
-            About
+        <div className='overflow-hidden'>
+            <div className='bg-[url("./assets/images/background.png")] h-screen w-screen bg-cover bg-no-repeat'></div>
         </div>
     )
 }
