@@ -1,6 +1,17 @@
 import React, { useState } from 'react'
+import { firestore } from '../firebase'
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { collection, setDoc, doc } from 'firebase/firestore';
+import { useNavigate } from "react-router-dom";
 
+
+
+
+const auth = getAuth();
+const ref_users = collection(firestore, 'users')
 function SignIn() {
+    const navigate = useNavigate()
+   
     const [formState, setFormState] = useState({ email: '', password: '' })
 
     const handleChange = (event) => {
@@ -14,7 +25,31 @@ function SignIn() {
     const handleSubmit = (event) => {
         // Prevent page reload
         event.preventDefault();
-      };
+        // Sign up with email and password
+        const { email, password } = formState
+
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+               
+                // Signed in 
+                const user = userCredential.user;
+                // Add user document to firestore
+               setDoc(doc(firestore, "users", user.uid), {
+                    email: user.email,
+                    uid: user.uid,
+              }).then(() => {
+                    // Navigate to home page;
+                
+                // set
+                navigate("/profile")
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // ..
+            }
+            );
+    })}
 
     return (
         <div className='text-2xl font-medium px-8'>
@@ -26,7 +61,7 @@ function SignIn() {
                         <input
                             className='rounded-lg bg-[#A897F1] px-4'
                             name='email'
-                            type='text'
+                            type='email'
                             id='email'
                             onChange={handleChange}
                             required
@@ -38,6 +73,7 @@ function SignIn() {
                             type='password'
                             id='pwd'
                             onChange={handleChange}
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
                             required
                         />
                         <button className='rounded-lg mt-20 bg-[#74D2A5] w-24 h-8 text-lg text-slate-700 hover:rounded-lg' type='submit'>
@@ -49,5 +85,7 @@ function SignIn() {
         </div>
     )
 }
+
+
 
 export default SignIn

@@ -8,6 +8,7 @@ import SignIn from './components/SignIn'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import services from './assets/js/Services'
+import Profile from './pages/Profile'
 import './App.css'
 
 function App() {
@@ -16,11 +17,13 @@ function App() {
             <div>
                 <Nav />
                 <Routes>
-                    <Route exact path='/' element={<Home />} />
-                    <Route exact path='/browse' element={<Browse services={services} />} />
-                    <Route exact path='/request' element={<Request services={services} />} />
-                    <Route exact path='/about' element={<About />} />
-                    <Route exact path='/signin' element={<SignIn />} />
+                    <Route exact path='/' element={<Home/>} />
+                    <Route exact path='/browse' element={<Browse/>} />
+                    <Route exact path='/request' element={<Request/>} />
+                    <Route exact path='/about' element={<About/>} />
+                    <Route exact path='/signin' element={<SignIn/>} />
+                    <Route exact path='/profile' element={<Profile/>} />
+
                 </Routes>
                 <Footer />
             </div>
