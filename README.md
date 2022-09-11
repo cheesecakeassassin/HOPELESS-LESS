@@ -1,4 +1,4 @@
-# Got Hope
+# Hopeless-less
   [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
   ## Description
   
@@ -43,7 +43,7 @@ Got Hope is a web and mobile application intended to help people in need easily 
 
   * [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
   * Otabek Abduraufov GitHub: https://github.com/otabek1
-  * Tahmid Ahmed
+  * Tahmid Ahmed GitHub: https://github.com/tahmidbugs
   * Sebastian Santa GitHub: https://github.com/cheesecakeassassin  
 
   ### Further Questions?
