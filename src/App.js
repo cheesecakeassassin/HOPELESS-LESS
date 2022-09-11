@@ -18,8 +18,8 @@ function App() {
                 <Nav />
                 <Routes>
                     <Route exact path='/' element={<Home/>} />
-                    <Route exact path='/browse' element={<Browse/>} />
-                    <Route exact path='/request' element={<Request/>} />
+                    <Route exact path='/browse' element={<Browse services={services}/>} />
+                    <Route exact path='/request' element={<Request services={services}/>} />
                     <Route exact path='/about' element={<About/>} />
                     <Route exact path='/signin' element={<SignIn/>} />
                     <Route exact path='/profile' element={<Profile/>} />

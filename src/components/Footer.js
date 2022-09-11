@@ -20,7 +20,7 @@ function Footer() {
                         <img src={twitter} alt='Twitter' />
                     </a>
                 </div>
-                <div className='mt-4'>AllHelp &copy;2022</div>
+                <div className='mt-4'>Hopeless-less &copy;2022</div>
             </div>
             <div className='mb-8 text-xl'>
                 <div className='py-1'>
@@ -41,7 +41,7 @@ function Footer() {
             </div>
             <div className='col-start-3 col-end-5 flex items-center justify-end pr-12 pb-10'>
                 <Link to='/'>
-                    <img height={140} width={140} src={allhelp} alt='AllHelp' />
+                    <img height={140} width={140} src={allhelp} alt='Hopeless-less' />
                 </Link>
             </div>
         </div>

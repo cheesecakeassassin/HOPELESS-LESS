@@ -103,7 +103,7 @@ function Profile() {
                                     <label>Gender: </label>
                                 </td>
                                 <td>
-                                    <select onChange={handleChange} name="gender">
+                                    <select className="rounded-md border border-black" onChange={handleChange} name="gender">
                                         <option value="male">Male</option>
                                         <option value="female">Female</option>
                                     </select>
