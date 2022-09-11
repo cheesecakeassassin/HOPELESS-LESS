@@ -2,7 +2,7 @@
   [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
   ## Description
   
-Got Hope is a web and mobile application intended to help people in need easily get services the services that can potentially save their lives. Created during ShellHacks 2022 Hackathon.
+Hopeless-less is a web and mobile application intended to help people in need easily get services the services that can potentially save their lives. Created during ShellHacks 2022 Hackathon.
 
 ## Technologies Used
 
