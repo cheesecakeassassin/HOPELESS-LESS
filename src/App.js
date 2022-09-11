@@ -7,6 +7,7 @@ import About from './pages/About'
 import SignIn from './components/SignIn'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Profile from './pages/Profile'
 import './App.css'
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
                     <Route exact path='/Request' element={<Request/>} />
                     <Route exact path='/About' element={<About/>} />
                     <Route exact path='/SignIn' element={<SignIn/>} />
+                    <Route exact path='/Profile' element={<Profile/>} />
+
                 </Routes>
                 <Footer />
             </div>
