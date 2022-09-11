@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Got Hope
+  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  ## Description
+  
+Got Hope is a web and mobile application intended to help people in need easily get services the services that can potentially save their lives. Created during ShellHacks 2022 Hackathon.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
 
-## Available Scripts
+* JavaScript
+* ReactJS
+* React Native
+* Firebase
+* TailwindCSS
 
-In the project directory, you can run:
+  ## Table of Contents
 
-### `npm start`
+  * [Installation](#installation)
+  * [Contributing](#contributing)
+  * [License Info](#license-info)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  ## Screenshots of Application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![2022-09-11](https://user-images.githubusercontent.com/7333111/189526763-ce92ef2c-32fe-4d1d-96eb-a3b853ed5e9b.png)
 
-### `npm test`
+![2022-09-11 (1)](https://user-images.githubusercontent.com/7333111/189526777-9c957bfa-bb57-4507-85c0-f268ab3cf402.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+  ## Link to Deployed Application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ### Installation
+  
+  * Open a terminal, head to the desired destination folder and type ```git clone git@github.com:cheesecakeassassin/allhelp.git```
+  * Run ```npm i``` to install all the dependencies needed to run the app
+  * Finally, run ```npm run start``` to open the development sever and get to work!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ### License Info
+  * [IBM License](https://opensource.org/licenses/IPL-1.0)
+  * The IPL is the open-source license IBM uses for some of its software. Supposed to facilitate commercial use of said software; is very clear on the specifics of liability. Also grants explicit patent rights.
+  
+  ### Contributing
 
-### `npm run eject`
+  * [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+  * Otabek Han GitHub: https://github.com/Leopards91
+  * Marques Sanchez GitHub: https://github.com/marquessanchez
+  * Sebastian Santa GitHub: https://github.com/cheesecakeassassin  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ### Further Questions?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  * If you have further questions, feel free to email one of us at one of the following addresss & we will get back to you as soon as we can: ah847@scarletmail.rutgers.edu, mrican217@gmail.com, mohamed0228@outlook.fr, borrowedandblue@gmail.com, or santasebastian@yahoo.com
