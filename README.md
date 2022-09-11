@@ -21,7 +21,7 @@ Hopeless-less is a web and mobile application intended to help people in need ea
 
   ## Screenshots of Application
 
-![2022-09-11](https://user-images.githubusercontent.com/7333111/189526763-ce92ef2c-32fe-4d1d-96eb-a3b853ed5e9b.png)
+![2022-09-11 (2)](https://user-images.githubusercontent.com/7333111/189533237-1c68c5af-19f8-4143-b38a-4e09567ab729.png)
 
 ![2022-09-11 (1)](https://user-images.githubusercontent.com/7333111/189526777-9c957bfa-bb57-4507-85c0-f268ab3cf402.png)
 
